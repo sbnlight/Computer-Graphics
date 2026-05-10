@@ -31,7 +31,7 @@ const std::string scene_file  = "scene/teapot_area_light.toml";
 const std::string output_path = "outputs/output.png";
 ```
 
-> ⚠️ `main.cpp` currently uses a hard-coded absolute `work_dir` — change it to your local checkout path before building.
+`work_dir` is set to `"../"`, so paths resolve relative to the `build/` directory you run `./Main` from.
 
 Scene files live under `scene/`; meshes under `mesh/`; rendered images under `outputs/`.
 
