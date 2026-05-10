@@ -56,7 +56,7 @@ void thread_func(int thread_i, int n_thread, int spp, int width, int height, con
 }
 
 int main() {
-    const std::string work_dir("D:/2025 sem1/comp3271/COMP3271_Computer_Graphics-main-20251204/COMP3271_Computer_Graphics-main/Assignment3/");
+    const std::string work_dir("../");
 
     // Construct scene
     Scene scene(work_dir, scene_file);
